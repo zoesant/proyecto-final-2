@@ -1,0 +1,23 @@
+nav {
+    background-color: #cbb3b6;
+    background: linear-gradient(#cbb3b6, #ffffff );
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    padding: 0px;
+    
+    padding-left: 0;
+
+    ul{
+        li{
+            padding: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+nav {
+    height: 50px;
+}
+    
+
+}

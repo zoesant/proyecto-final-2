@@ -1,0 +1,110 @@
+/**===== Mobile first ======**/
+main {
+    overflow-x:hidden;
+    background-color: #ffffff;
+    .img-prod {
+        
+        padding: 0 10px 10px 10px;
+        margin: 20px;
+        background-color:  #cbb3b6;
+        background: linear-gradient(to top, #cbb3b6, #ffffff);
+        height: 290px;
+        }
+
+    .text-img {
+        text-align: center;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .img-tabla {
+        height: 170px;
+    }
+
+    .texto-tabla-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+/**==============================**/
+
+@media only screen and (max-width: 768px) {
+    .mapa {
+        display: none;
+    }
+
+}
+
+/**==============================**/
+
+@media only screen and (min-width: 768px) {
+    main {
+        overflow-x:hidden;
+
+        .img-prod {
+            height: 200px;           
+           
+        }
+
+        .img-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .img-tabla {
+            height: 200px;
+        }
+
+        .div-registrarse {
+            
+            padding: 0px 300px 50px 100px
+        }
+
+        .w-50 {
+            width: 50% !important;
+        }
+
+        
+
+    }
+}
+
+/**==============================**/
+
+@media only screen and (min-width: 1024px) {
+
+    main {
+    
+
+        .img-prod {
+            height: 200px;
+            transition: height 0.2s;
+            transform: scale(1.1);
+            
+        }
+
+        .img-prod:hover {
+            height: 210px;
+        }
+
+        
+
+        .img-container {
+            height: 320px;
+        }
+
+        .img-tabla {
+            height: 500px;
+        }
+
+     
+
+
+    }
+
+}
+

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+    .align-items-center {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+
+footer {
+    .section-2 {
+        background-color: #cbb3b6;
+        background: linear-gradient( #ffffff, #cbb3b6);
+    }
+
+    .font-li-footer {
+        font-family:'Bebas Neue', cursive ;
+        font-size: 15px;
+    }
+
+    .font-p-footer {
+        font-family:'Roboto Condensed', sans-serif;
+        font-weight: 400;
+    }
+
+    .font-ul-contacto {
+        font-family: 'Bebas Neue', cursive;
+    }
+}
